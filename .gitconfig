@@ -1,1 +1,12 @@
-../../.gitconfig
+[user]
+	email = jurkiewiczdawid@gmail.com
+	name = siulkilulki
+[push]
+	default = simple
+[core]
+packedGitLimit = 512m
+packedGitWindowSize = 512m
+[pack]
+deltaCacheSize = 2047m
+packSizeLimit = 2047m
+windowMemory = 2047m

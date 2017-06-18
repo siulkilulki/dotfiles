@@ -1,1 +1,3 @@
-/home/dawid/Documents/scripts/megafon_udev/directory_structure.txt
+/usr/local/bin/usb-megafon-in
+/usr/local/bin/usb-megafon-in_udev
+/etc/udev/rules.d/00-usb-megafon.rules

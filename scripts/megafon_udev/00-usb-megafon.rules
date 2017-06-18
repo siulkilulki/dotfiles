@@ -1,1 +1,1 @@
-/home/dawid/Documents/scripts/megafon_udev/00-usb-megafon.rules
+ACTION=="add", ATTRS{idVendor}=="12d1", ATTRS{idProduct}=="14fe", RUN+="/usr/local/bin/usb-megafon-in_udev"
