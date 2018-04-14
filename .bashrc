@@ -16,8 +16,8 @@ HISTCONTROL=ignoreboth
 shopt -s histappend
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
-HISTSIZE=1000
-HISTFILESIZE=2000
+HISTSIZE=10000
+HISTFILESIZE=20000
 
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
@@ -118,8 +118,16 @@ if ! shopt -oq posix; then
 fi
 
 ### Added by the Heroku Toolbelt
-export ANDROID_HOME=/opt/android-sdk-linux
-export PATH="/usr/local/heroku/bin:$ANDROID_HOME:$PATH"
+# export ANDROID_HOME=/opt/android-sdk-linux
+# export PATH="/usr/local/heroku/bin:$ANDROID_HOME:$PATH"
 export ALTERNATE_EDITOR=""
 export EDITOR="emacsclient -c -a emacs"                  # $EDITOR should open in terminal
 export VISUAL="emacsclient -c -a emacs"         # $VISUAL opens in GUI with non-daemon as alternate
+
+# added by Miniconda3 4.3.21 installer
+# export PATH="/home/dawid/miniconda3/bin:$PATH"
+# export PATH="$HOME/.cabal/bin:/opt/cabal/1.22/bin:/opt/ghc/7.10.3/bin:$PATH"
+
+# added by Miniconda3 installer
+
+. /home/dawid/miniconda3/etc/profile.d/conda.sh
