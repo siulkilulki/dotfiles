@@ -40,8 +40,8 @@ cursor_shape = block
 
 [hints]
 #font = Monospace 12
-#foreground = #dcdccc
-#background = #3f3f3f
+# foreground = #dcdccc
+# background = #3f3f3f
 #active_foreground = #e68080
 #active_background = #3f3f3f
 #padding = 2
@@ -54,8 +54,8 @@ cursor_shape = block
 
 # special
 foreground      = #eeeeee
-foreground_bold = #eeeeee
-cursor          = #eeeeee
+foreground_bold = #dcdcdc
+# cursor          = ##F1D4C6
 background      = #303030
 
 # black
@@ -67,7 +67,8 @@ color1  = #dca3a3
 color9  = #d7875f
 
 # green
-color2  = #72d5a3
+# color2  = #72d5a3
+color2 = #60b48a
 color10 = #60b48a
 
 # yellow
@@ -83,9 +84,12 @@ color5  = #ec93d3
 color13 = #dc8cc3
 
 # cyan
-color6  = #93e0e3
+# color6  = #93e0e3
+# color14 = #8cd0d3
+color6 = #8cd0d3
 color14 = #8cd0d3
 
 # white
-color7  = #ffffff
-color15 = #dcdcdc
+color7  = #dcdcdc
+# color15 = #dcdcdc
+color15 = #ffffff
