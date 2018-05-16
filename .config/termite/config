@@ -63,7 +63,7 @@ color0  = #585858
 color8  = #303030
 
 # red
-color1  = #dca3a3
+color1  = #f92f2f
 color9  = #d7875f
 
 # green
@@ -76,7 +76,7 @@ color3  = #f0dfaf
 color11 = #dfaf8f
 
 # blue
-# color4  = #94bff3
+color4  = #94bff3
 color12  = #5fafd7
 
 # magenta
