@@ -1,3 +1,20 @@
 set show-all-if-ambiguous on
 set visible-stats on
 set page-completions off
+
+set editing-mode vi
+set keymap vi
+set bell-style none
+$if mode=vi
+    set keymap vi-command
+    "gg": beginning-of-history
+    "G": end-of-history
+    set keymap vi-insert
+    "fd": vi-movement-mode
+    "\C-w": backward-kill-word
+    "\C-p": history-search-backward
+$endif
+set show-mode-in-prompt on
+set vi-ins-mode-string \1\033[5 q\2
+set vi-cmd-mode-string \1\033[2 q\2
+
