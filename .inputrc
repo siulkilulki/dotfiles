@@ -1,11 +1,11 @@
 set show-all-if-ambiguous on
 set visible-stats on
 set page-completions off
+set bell-style none
 
 set editing-mode vi
-set keymap vi
-set bell-style none
 $if mode=vi
+    set keymap vi
     set keymap vi-command
     "gg": beginning-of-history
     "G": end-of-history
@@ -13,8 +13,18 @@ $if mode=vi
     "fd": vi-movement-mode
     "\C-w": backward-kill-word
     "\C-p": history-search-backward
+    set show-mode-in-prompt on
+    set vi-ins-mode-string \1\033[5 q\2
+    set vi-cmd-mode-string \1\033[2 q\2
 $endif
-set show-mode-in-prompt on
-set vi-ins-mode-string \1\033[5 q\2
-set vi-cmd-mode-string \1\033[2 q\2
 
+# Color files by types
+set colored-stats On
+# Append char to indicate type
+set visible-stats On
+# Mark symlinked directories
+set mark-symlinked-directories On
+# Color the common prefix
+set colored-completion-prefix On
+# Color the common prefix in menu-complete
+set menu-complete-display-prefix On
