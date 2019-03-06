@@ -14,7 +14,7 @@ $if mode=vi
     "\C-w": backward-kill-word
     "\C-p": history-search-backward
     set show-mode-in-prompt on
-    set vi-ins-mode-string \1\033[5 q\2
+    set vi-ins-mode-string \1\033[6 q\2
     set vi-cmd-mode-string \1\033[2 q\2
 $endif
 
